@@ -64,3 +64,12 @@ h1 {
   text-align: center;
   font-size: 5rem;
 }
+
+.winning-team {
+  background-color: rgb(187, 58, 58);
+  color: rgb(70, 64, 64);
+}
+
+.hide {
+  display: none;
+}
