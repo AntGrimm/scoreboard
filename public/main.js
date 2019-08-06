@@ -119,6 +119,8 @@ const resetGame = () => {
   document.querySelector('.team-1-subtract-1-button').classList.remove('hide')
   document.querySelector('.team-2-add-1-button').classList.remove('hide')
   document.querySelector('.team-2-subtract-1-button').classList.remove('hide')
+  document.querySelector('.team-1-score').classList.remove('winning-team')
+  document.querySelector('.team-2-score').classList.remove('winning-team')
   document.querySelector('.reset-button').classList.add('hide')
   console.log(team1Score)
 
@@ -131,6 +133,8 @@ const resetGame = () => {
   document.querySelector('.team-1-subtract-1-button').classList.remove('hide')
   document.querySelector('.team-2-add-1-button').classList.remove('hide')
   document.querySelector('.team-2-subtract-1-button').classList.remove('hide')
+  document.querySelector('.team-1-score').classList.remove('winning-team')
+  document.querySelector('.team-2-score').classList.remove('winning-team')
   document.querySelector('.reset-button').classList.add('hide')
   console.log(team2Score)
 }

@@ -68,6 +68,19 @@ h1 {
 .winning-team {
   background-color: rgb(187, 58, 58);
   color: rgb(70, 64, 64);
+  -webkit-animation-name: color-adjust;
+  -webkit-animation-duration: 0.5s;
+  animation-name: color-adjust;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  @-webkit-keyframes color-adjust {
+    from {
+      background-color: rgb(187, 58, 58);
+    }
+    to {
+      background-color: rgb(70, 64, 64);
+    }
+  }
 }
 
 .hide {
